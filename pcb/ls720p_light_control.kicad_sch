@@ -3538,7 +3538,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10639c7e-3ee4-4ac0-9137-5aa5843079b4")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR017"
 			(at 250.19 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -3598,7 +3598,7 @@
 		(instances
 			(project "ls720p_light_control"
 				(path "/06998f3d-84f3-419d-9906-df41c631dead"
-					(reference "#PWR019")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -4568,7 +4568,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f631110-dcb5-4a37-9be8-d84c5c60c855")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 254 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4628,7 +4628,7 @@
 		(instances
 			(project "ls720p_light_control"
 				(path "/06998f3d-84f3-419d-9906-df41c631dead"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6434,7 +6434,7 @@
 				)
 			)
 		)
-		(property "ALT_Part" "ATTINY10"
+		(property "ALT_Part" "ATTINY10-TSHR"
 			(at 124.46 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6445,7 +6445,7 @@
 				)
 			)
 		)
-		(property "Part" "ATTINY5"
+		(property "Part" "ATTINY5-TSHR"
 			(at 124.46 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6494,7 +6494,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec6cae87-2cac-4c63-8b26-b919e7d7e410")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 254 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6554,7 +6554,7 @@
 		(instances
 			(project "ls720p_light_control"
 				(path "/06998f3d-84f3-419d-9906-df41c631dead"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
