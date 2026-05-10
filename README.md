@@ -1,5 +1,5 @@
 # LS720P Light Control PCB
-Controller for LS720P light using ATTINY5. Brightness is controlled using potentiometer. +12V input and switch for power on/off. Made in KiCad 10.
+Controller for LS720P light using ATTINY5. Brightness is controlled using potentiometer. +5V input and switch for power on/off. Made in KiCad 10.
 
 # Schematic
 
