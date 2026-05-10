@@ -78,11 +78,15 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|204900000|107000000|8d126b45-f50e-4bf3-abc6-cf771adc0a5c|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|203150000|96450000|e5273327-5ceb-4da1-a284-2faa62a27639|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
           "lib_footprint_mismatch|209500000|93600000|6a78b4e7-119c-4197-8945-e7e0ddc83f78|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|209550000|107050000|8d126b45-f50e-4bf3-abc6-cf771adc0a5c|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -94,19 +98,11 @@
           ""
         ],
         [
-          "mirrored_text_on_front_layer|200400000|103500000|580ea710-7507-4704-8682-1e1610a92a18|00000000-0000-0000-0000-000000000000",
+          "mirrored_text_on_front_layer|200425000|107950000|580ea710-7507-4704-8682-1e1610a92a18|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
           "mirrored_text_on_front_layer|239400000|93000000|70a3ac93-8313-4d42-9f85-56bc38ed6f42|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "starved_thermal|211637500|99500000|335f3e27-d2a0-4605-819e-f122e133a610|b97b8b83-118a-4057-a500-b44ecc3b7bfb|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|217537499|100300000|335f3e27-d2a0-4605-819e-f122e133a610|78e64800-8b02-4a78-8579-d81b36a0c739|F.Cu",
           ""
         ],
         [
@@ -597,6 +593,7 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -606,14 +603,16 @@
         "name": "+12V",
         "pcb_color": "rgb(221, 133, 0)",
         "priority": 2,
-        "schematic_color": "rgb(255, 153, 0)"
+        "schematic_color": "rgb(255, 153, 0)",
+        "tuning_profile": ""
       },
       {
         "line_style": 0,
         "name": "+5V",
         "pcb_color": "rgb(255, 0, 0)",
         "priority": 3,
-        "schematic_color": "rgb(255, 0, 0)"
+        "schematic_color": "rgb(255, 0, 0)",
+        "tuning_profile": ""
       },
       {
         "bus_width": 12,
@@ -622,6 +621,7 @@
         "pcb_color": "rgb(0, 0, 0)",
         "priority": 4,
         "schematic_color": "rgb(0, 0, 0)",
+        "tuning_profile": "",
         "wire_width": 6
       },
       {
@@ -629,18 +629,20 @@
         "name": "HIGH_FREQ",
         "pcb_color": "rgb(194, 0, 194)",
         "priority": 0,
-        "schematic_color": "rgb(194, 0, 194)"
+        "schematic_color": "rgb(194, 0, 194)",
+        "tuning_profile": ""
       },
       {
         "line_style": 0,
         "name": "LOW_FREQ",
         "pcb_color": "rgb(0, 194, 194)",
         "priority": 1,
-        "schematic_color": "rgb(0, 194, 194)"
+        "schematic_color": "rgb(0, 194, 194)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -672,6 +674,10 @@
       {
         "netclass": "HIGH_FREQ",
         "pattern": "/~{RESET}"
+      },
+      {
+        "netclass": "HIGH_FREQ",
+        "pattern": "/DBG*"
       }
     ]
   },
